@@ -135,7 +135,7 @@ writer.SetFileName(f"contour_{iso}.vtp")
 writer.SetInputData(poly)
 writer.Write()
 
-# Confirmation message to the user that the output has been written successfully into the specified file.
+# Confirmation message to the user that the output has been written successfully into the specified file. 
 print(f"Output written to contour_{iso}.vtp")
 
                 
